@@ -1,0 +1,243 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a685e357-0c48-4039-9775-db3bc428cd49")
+	(paper "A5")
+	(title_block
+		(title "NixieClock Pro Max")
+		(rev "1")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 78.74 46.99) (xy 93.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e83798-c488-47c8-a749-57db57b72763")
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18) (xy 93.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abfec3f-91e9-4541-acf5-9f0aa5455e51")
+	)
+	(wire
+		(pts
+			(xy 78.74 35.56) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b970c002-03b4-46db-9df1-1fed2440d747")
+	)
+	(wire
+		(pts
+			(xy 78.74 39.37) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f19549-0163-45c2-b069-e9bea9f40c97")
+	)
+	(wire
+		(pts
+			(xy 78.74 50.8) (xy 93.98 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c64692-73c8-4072-9a96-0802e9c43487")
+	)
+	(sheet
+		(at 93.98 22.86)
+		(size 40.894 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06b98f29-c4b1-45e0-855d-428084a71670")
+		(property "Sheetname" "Nixie Driver"
+			(at 93.98 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nixie_driver.kicad_sch"
+			(at 93.98 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HVOE" input
+			(at 93.98 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79df3ceb-04cd-4cdd-9f96-4d839a5adf7f")
+		)
+		(pin "HVCLK" input
+			(at 93.98 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b400b15-cdc5-4312-a99a-91e42c744b19")
+		)
+		(pin "HVSTR" input
+			(at 93.98 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "874588de-2a10-46f4-9cad-42ddc7774dfb")
+		)
+		(pin "HVDATA" input
+			(at 93.98 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3de11524-308d-4a38-841a-0b2ae78090c0")
+		)
+		(pin "LED_DATA" input
+			(at 93.98 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "233cf06b-c746-44c5-9e73-6b9626f35483")
+		)
+		(instances
+			(project "nixie_clock_design"
+				(path "/a685e357-0c48-4039-9775-db3bc428cd49"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 37.846 22.86)
+		(size 40.894 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a1cc8ae-cc8c-4737-80d4-9deff739e05d")
+		(property "Sheetname" "Logic&PSU"
+			(at 37.846 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic_psu.kicad_sch"
+			(at 37.846 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_DATA" input
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d16b7e90-dd11-4e37-8ec3-6d39bf0e6b84")
+		)
+		(pin "HVSTR" input
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "703f5b45-cdc7-4c0c-8d0e-ced7c5fea7af")
+		)
+		(pin "HVOE" input
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "beeebdb3-3662-491a-9ec7-b5f02c0e8898")
+		)
+		(pin "HVCLK" input
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4539b5d9-0a99-495d-b78b-fde6ab46cbe5")
+		)
+		(pin "HVDATA" input
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bcf59323-33d6-4265-b41e-ee7c07ab9d54")
+		)
+		(instances
+			(project "nixie_clock_design"
+				(path "/a685e357-0c48-4039-9775-db3bc428cd49"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

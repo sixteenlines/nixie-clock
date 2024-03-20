@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USBC")(type "Legacy")(uri "C:/Users/bremdode/OneDrive - B. Braun/Dokumente/KiCad/8.0/symbols/Type-C.lib")(options "")(descr ""))
+  (lib (name "Transformer")(type "Legacy")(uri "C:/Users/bremdode/OneDrive - B. Braun/Dokumente/KiCad/8.0/symbols/DA2032-ALD.lib")(options "")(descr ""))
+  (lib (name "Nixie")(type "Legacy")(uri "C:/Users/bremdode/OneDrive - B. Braun/Dokumente/KiCad/8.0/symbols/nixies-us.lib")(options "")(descr ""))
+)
