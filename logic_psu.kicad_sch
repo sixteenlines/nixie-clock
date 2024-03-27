@@ -7528,6 +7528,12 @@
 		(uuid "161c293c-5b80-4460-8949-e0678783fa73")
 	)
 	(junction
+		(at 86.36 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1966ee7e-5b08-4e2e-8489-bab913b1d5e8")
+	)
+	(junction
 		(at 193.04 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7568,6 +7574,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a4b5ddf-8d66-487e-8c45-c30e863e60a0")
+	)
+	(junction
+		(at 96.52 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "423227d4-e02f-4c07-bc62-adc67a9e1e17")
 	)
 	(junction
 		(at 119.38 182.88)
@@ -9147,7 +9159,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 138.43) (xy 90.17 138.43)
+			(xy 74.93 138.43) (xy 86.36 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9297,6 +9309,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 138.43) (xy 90.17 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8421579e-3f13-41c7-96a1-b41ed233c4fe")
+	)
+	(wire
+		(pts
 			(xy 176.53 146.05) (xy 176.53 148.59)
 		)
 		(stroke
@@ -9327,7 +9349,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 138.43) (xy 109.22 138.43)
+			(xy 92.71 138.43) (xy 96.52 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10034,6 +10056,16 @@
 			(type default)
 		)
 		(uuid "cd4a4d03-2499-4695-8552-dd5854ac1a3d")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbee713-e87e-4d62-a7c3-4bad52093115")
 	)
 	(wire
 		(pts
@@ -14998,6 +15030,72 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 86.36 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "550e667d-df83-4b16-9e28-0ff2e9aa5ea7")
+		(property "Reference" "#PWR083"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc279a34-6f8c-4b0f-ad44-2e2a31c328d9")
+		)
+		(instances
+			(project "nixie_clock_design"
+				(path "/a685e357-0c48-4039-9775-db3bc428cd49/6a1cc8ae-cc8c-4737-80d4-9deff739e05d"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 207.01 137.16 270)
 		(unit 1)
@@ -16321,6 +16419,72 @@
 			(project "nixie_clock_design"
 				(path "/a685e357-0c48-4039-9775-db3bc428cd49/6a1cc8ae-cc8c-4737-80d4-9deff739e05d"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 96.52 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72053e5d-80f9-49de-a539-339146e4830c")
+		(property "Reference" "#PWR084"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaa5d9f2-8cb5-4382-9adb-bce0124ade6c")
+		)
+		(instances
+			(project "nixie_clock_design"
+				(path "/a685e357-0c48-4039-9775-db3bc428cd49/6a1cc8ae-cc8c-4737-80d4-9deff739e05d"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -19326,6 +19490,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 96.52 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afc38088-93ac-498f-9e8a-e37b7d194c5c")
+		(property "Reference" "R42"
+			(at 98.044 133.35 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 98.044 135.128 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 94.742 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06034K70FKEAHP"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46d05ac6-38b6-4197-a797-4bac2934b608")
+		)
+		(pin "1"
+			(uuid "07f33696-a592-40e9-9a89-557dd8d0a0cc")
+		)
+		(instances
+			(project "nixie_clock_design"
+				(path "/a685e357-0c48-4039-9775-db3bc428cd49/6a1cc8ae-cc8c-4737-80d4-9deff739e05d"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
 		(at 207.01 116.84 0)
@@ -21032,6 +21274,84 @@
 			(project "nixie_clock_design"
 				(path "/a685e357-0c48-4039-9775-db3bc428cd49/6a1cc8ae-cc8c-4737-80d4-9deff739e05d"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d91bea3f-53f0-493e-b7c5-3499bfd412c0")
+		(property "Reference" "R31"
+			(at 87.884 133.35 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 87.884 135.128 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.582 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06034K70FKEAHP"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eede5301-c04f-4ab2-b788-97e2212d9cbe")
+		)
+		(pin "2"
+			(uuid "558c30ea-2adb-4946-ba07-a2a97bde43cc")
+		)
+		(instances
+			(project "nixie_clock_design"
+				(path "/a685e357-0c48-4039-9775-db3bc428cd49/6a1cc8ae-cc8c-4737-80d4-9deff739e05d"
+					(reference "R31")
 					(unit 1)
 				)
 			)

@@ -3730,12 +3730,6 @@
 		(uuid "92ce83b9-f1c3-401b-afdd-a0567869a055")
 	)
 	(junction
-		(at 147.32 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b3f8ca6-9ff8-4072-be0a-a41200240448")
-	)
-	(junction
 		(at 39.37 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3758,6 +3752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add82686-abe1-49e9-9d00-885d5f8e9bfa")
+	)
+	(junction
+		(at 147.32 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b16d3124-a96f-4b8f-b3eb-9b241f483a27")
 	)
 	(junction
 		(at 214.63 38.1)
@@ -5147,16 +5147,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 140.97) (xy 149.86 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09bbf063-3e1f-490f-a446-70848c755e65")
-	)
-	(wire
-		(pts
 			(xy 41.91 181.61) (xy 24.13 181.61)
 		)
 		(stroke
@@ -5487,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 143.51) (xy 175.26 143.51)
+			(xy 147.32 143.51) (xy 175.26 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5614,16 +5604,6 @@
 			(type default)
 		)
 		(uuid "3227cfd4-19c2-47fb-8430-e05b75aafdd5")
-	)
-	(wire
-		(pts
-			(xy 147.32 133.35) (xy 149.86 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3233c090-b0cb-4b98-a547-da5c5deed410")
 	)
 	(wire
 		(pts
@@ -7477,7 +7457,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 143.51) (xy 144.78 143.51)
+			(xy 119.38 143.51) (xy 147.32 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7807,7 +7787,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 140.97) (xy 144.78 143.51)
+			(xy 147.32 140.97) (xy 147.32 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8454,16 +8434,6 @@
 			(type default)
 		)
 		(uuid "e61a508e-384e-4a16-ac89-8bf747d2d700")
-	)
-	(wire
-		(pts
-			(xy 147.32 133.35) (xy 144.78 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e665f6c3-a5d4-4331-9521-df01f8ea7261")
 	)
 	(wire
 		(pts
@@ -12173,7 +12143,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 137.16 0)
+		(at 147.32 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12181,7 +12151,7 @@
 		(dnp no)
 		(uuid "2f924745-b051-482a-8653-dd4cf26ce2da")
 		(property "Reference" "R13"
-			(at 139.192 139.7 0)
+			(at 141.732 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12190,7 +12160,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 144.78 138.938 90)
+			(at 147.32 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +12169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 143.002 137.16 90)
+			(at 145.542 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,7 +12178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12196,7 @@
 			)
 		)
 		(property "MPN" "CRCW120610K0FKEA"
-			(at 144.78 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12205,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 144.78 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +12214,7 @@
 			)
 		)
 		(property "Reichelt" ""
-			(at 144.78 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12253,7 +12223,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 144.78 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12232,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 144.78 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +12241,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 144.78 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16773,129 +16743,6 @@
 			(project "nixie_clock_design"
 				(path "/a685e357-0c48-4039-9775-db3bc428cd49/06b98f29-c4b1-45e0-855d-428084a71670"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc475094-8213-491e-995c-16c03d2cc9e6")
-		(property "Reference" "R31"
-			(at 151.638 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 149.86 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 148.082 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW120610K0FKEA"
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reichelt" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b6aba85-d72a-424a-ac46-3d31163dfb43")
-		)
-		(pin "2"
-			(uuid "a921a078-05da-4859-bb03-9e5d7b7e7642")
-		)
-		(instances
-			(project "nixie_clock_design"
-				(path "/a685e357-0c48-4039-9775-db3bc428cd49/06b98f29-c4b1-45e0-855d-428084a71670"
-					(reference "R31")
 					(unit 1)
 				)
 			)
