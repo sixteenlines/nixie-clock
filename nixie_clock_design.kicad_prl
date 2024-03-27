@@ -80,8 +80,8 @@
   "project": {
     "files": [
       {
-        "name": "nixie_clock_design.kicad_sch",
-        "open": true,
+        "name": "nixie_clock_design.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
