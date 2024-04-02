@@ -36,6 +36,7 @@
 "R28","1M","Resistor_SMD:R_1206_3216Metric","1","","RCV12061M00FKEAAT"
 "R29","63.4K","Resistor_SMD:R_0603_1608Metric","1","","CRCW060363K4FKEA"
 "R31,R42","4.7k","Resistor_SMD:R_0603_1608Metric","2","","CRCW06034K70FKEAHP"
+"R43","0","Resistor_SMD:R_0603_1608Metric","1","","MCT06030Z0000ZPW00"
 "SW1","EG1224","Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled","1","","EG1224"
 "T1","DA2032-ALD","footprints:SOP250P2197X889-12N","1","","DA2032-ALD"
 "U1,U2","HV5122","Package_QFP:PQFP-44_10x10mm_P0.8mm","2","","HV5122PJ-G"

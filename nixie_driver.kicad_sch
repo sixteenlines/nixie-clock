@@ -3736,6 +3736,12 @@
 		(uuid "a1e995c7-fb60-4386-82c2-8ab0c8f8b0d9")
 	)
 	(junction
+		(at 147.32 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3115440-bfaa-44a5-bddd-ac0fbc492a46")
+	)
+	(junction
 		(at 171.45 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3752,12 +3758,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add82686-abe1-49e9-9d00-885d5f8e9bfa")
-	)
-	(junction
-		(at 147.32 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b16d3124-a96f-4b8f-b3eb-9b241f483a27")
 	)
 	(junction
 		(at 214.63 38.1)
@@ -5477,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 143.51) (xy 175.26 143.51)
+			(xy 147.32 143.51) (xy 156.21 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6277,6 +6277,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 143.51) (xy 175.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f276a5-30c4-4b03-bd7e-a71e75263b84")
+	)
+	(wire
+		(pts
 			(xy 49.53 184.15) (xy 49.53 181.61)
 		)
 		(stroke
@@ -6354,6 +6364,16 @@
 			(type default)
 		)
 		(uuid "5db132d1-8a69-493f-ae11-54a4d060d502")
+	)
+	(wire
+		(pts
+			(xy 119.38 143.51) (xy 147.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f07a6ea-2cc3-4a9d-aa7b-f78f00607e46")
 	)
 	(wire
 		(pts
@@ -7454,16 +7474,6 @@
 			(type default)
 		)
 		(uuid "a0d048e7-33e8-4a64-adf6-5165064b1ea5")
-	)
-	(wire
-		(pts
-			(xy 119.38 143.51) (xy 147.32 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1d29e97-be0a-49c2-ba7d-f4f519885824")
 	)
 	(wire
 		(pts
@@ -13104,6 +13114,82 @@
 			(project "nixie_clock_design"
 				(path "/a685e357-0c48-4039-9775-db3bc428cd49/06b98f29-c4b1-45e0-855d-428084a71670"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48c60b7d-72e2-4fcf-ace5-fa41364cc9dd")
+		(property "Reference" "R43"
+			(at 160.02 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 160.02 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCT06030Z0000ZPW00"
+			(at 160.02 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad2f48b5-8324-473e-a7a9-c596b425b47c")
+		)
+		(pin "2"
+			(uuid "b6cbae54-a0ba-42ef-adbf-5acca0d53150")
+		)
+		(instances
+			(project "nixie_clock_design"
+				(path "/a685e357-0c48-4039-9775-db3bc428cd49/06b98f29-c4b1-45e0-855d-428084a71670"
+					(reference "R43")
 					(unit 1)
 				)
 			)
